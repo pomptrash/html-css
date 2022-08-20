@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'fonteAndroid';
+    src: url(fontes/idroid.otf);
+}
+
+body { 
+    background-color: #84e1ad;
+}
+
+header {
+    background-image: linear-gradient(to top,#1a5c38, #3ddb84);
+    height: 150px;
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 20px;
+
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+}
+
+.menu > a:hover {
+    background-color: #3dd98373;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+}
+
+.primeiraSection > h1{
+    font-family: "fonteAndroid";
+    padding: 10px;
+    color: #1a5c38;
+}
+
+.primeiraSection > h2{
+    font-family: "fonteAndroid";
+    color: #1a5c38;
+    background-image: linear-gradient(to right,#bbeebb, white );
+    padding-left: 10px;
+    margin: 10px;
+
+}
+
+.primeiraSection > p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-indent: 30px;
+    margin: 10px;
+}
+
+.androids > img {
+    width: 100%;
+}
+
+.irina > img{
+    width: 95%;
+    margin: 2.5%;
+    
+}
+
+#imgDiv {
+    text-align: center;
+}
+
+.primeiraSection > #bugdroid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video {
+    width: 95%;
+    height: 450px;
+    margin: 2.5%;
+}
+
+.video {
+    background-color: #1a5c38;
+}
+
+
+.extra {
+    margin: 10px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.extra > p{
+    text-indent: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+.extra > #extraContent{
+    padding: 10px;
+    text-indent: 20px;
+}
+
+#extraTitle {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#list1 {
+    padding: 10px;
+    display: inline-block;
+    list-style: url(imagens/check.png);
+    margin-left: 25px;
+    
+}
+
+#list2 {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 25px;
+    list-style: url(imagens/check.png);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1a5c38;
+    padding: 5px;
+}
+
+span {
+    color: #1a5c38;
+    font-weight: 700;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3dd98373;
+}
