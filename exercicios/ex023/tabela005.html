@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .primeira {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercio de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="primeira">
+        </colgroup>
+
+        <caption style="padding-bottom: 10px;">segue o líder</caption>
+        <tr>
+            <th scope="col">posição</th>
+            <th scope="col">time</th>
+            <th scope="col">pontos</th>
+        </tr>
+        <tr>
+            <td>1º</td>
+            <td>palmeiras</td>
+            <td>51pts</td>
+        </tr>
+        <tr>
+            <td>2º</td>
+            <td>flamengo</td>
+            <td>44pts</td>
+        </tr>
+        <tr>
+            <td>3º</td>
+            <td>corinthians</td>
+            <td>43pts</td>
+        </tr>
+        <tr>
+            <td>4º</td>
+            <td>internacional</td>
+            <td>43pts</td>
+        </tr>
+    </table>
+</body>
+</html>

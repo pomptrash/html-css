@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>mesclagem de células</h1>
+
+    <table>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td colspan="2">d</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td>g</td>
+            <td rowspan="2">h</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>l</td>
+        </tr>
+    </table>
+</body>
+</html>
