@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form>
+        <div>
+            <label for="times">times</label>
+            <select name="times" id="times">
+                <option value="palmeiras">palmeiras</option>
+                <option value="corinthians">corinthians</option>
+                <option value="sp">sao paulo</option>
+                <option value="santos">santos</option>
+            </select>
+        </div>
+        <div>
+            <label for="esporte">esporte</label>
+            <input type="text" name="esporte" id="esporte" list="esportes">
+            <datalist id="esportes">
+                <option>futebol</option>
+                <option>basquete</option>
+                <option>volei</option>
+            </datalist>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+</body>
+</html>
