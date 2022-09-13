@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fomrulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.button input {
+            border: none;
+            background-color: darkred;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        div.inp input{
+            background-color: darkred;
+            color: white;
+        }
+
+        div.inp input:focus {
+            background-color: darksalmon;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend>email</legend>
+            <div class="inp">
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="button">
+                <input type="submit" name="sub" id="sub">
+                <input type="reset" name="reset" id="reset">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
