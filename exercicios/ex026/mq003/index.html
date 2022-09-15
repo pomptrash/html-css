@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body, html {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            width: 100vw;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 2px 2px 2px #1a2cb4;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media screen and (orientation: landscape) {
+            body, html {
+                background-image: url(../imagens/cev-landscape.jpg);
+                background-position: left bottom;
+            }
+        }
+
+        @media screen and (orientation: portrait) {
+            body, html {
+                background-image: url(../imagens/cev-portrait.jpg);
+                background-position: center bottom;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>mude a orientação do seu dispositivo</h1>
+</body>
+</html>
