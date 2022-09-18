@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* todas as outras mídias */
+
+/* Typical device breakpoints
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: de 768 até 992px
+desktop: de 992px até 1200px
+grandes telas: acima de 1200px
+*/
+
+/* impressão */
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    main {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    main::after {
+        content: 'pomptrash';
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: black url(../imagens/back-tablet.jpg) fixed center center / cover;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: black url(../imagens/back-pc.jpg) fixed center center / cover;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+}
+
+/* grandes telas */
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: black url(../imagens/back-tv.jpg) fixed center center / cover;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+}
